@@ -1,0 +1,156 @@
+﻿body {
+	font-family: 'Open Sans', serif;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+footer {
+	padding: 80px 0;
+}
+
+.font-raleway {
+	font-family: 'Raleway', serif;
+	font-weight: 300;
+}
+
+.strips-one {
+	width: 70px;
+	height: 1px;
+	position: relative;
+	margin: 20px auto 19px;
+	border-top: 1px solid #d0d0d0;
+}
+
+.color-white {
+	color: #fff;
+}
+
+.section {
+	padding: 90px 0;
+}
+
+.section-container {
+	position: relative;
+	z-index: 10;
+}
+
+.link {
+	color: #494949;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.link:hover {
+	color: #494949;
+	text-decoration: none;
+	text-align: center;
+}
+
+img {
+	margin: 0 auto;
+}
+
+.demo-header {
+	position: relative;
+	padding: 150px 0;
+	background-image: url(bg1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-attachment: fixed;
+}
+
+.default-button {
+	display: inline-block;
+	background: #fff;
+	-webkit-border-radius: 27px;
+	-moz-border-radius: 27px;
+	border-radius: 27px;
+	padding: 9px 50px;
+	color: #333;
+	line-height: 22px;
+	font-size: 16px;
+	outline: none;
+	outline-offset: 0px;
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.default-button:hover,
+.default-button:focus {
+	color: #333;
+	opacity: 0.8;
+}
+
+.default-button i,
+.default-button:hover i,
+.default-button:focus i {
+	color: #333;
+}
+
+.bt-red {
+	background: #DD4B39;
+	color: #fff;
+}
+
+.bt-red:hover,
+.bt-red:focus {
+	color: #fff;
+	opacity: 0.8;
+}
+
+.bt-red i,
+.bt-red:hover i,
+.bt-red:focus i {
+	color: #fff;
+}
+
+.bt-transparent {
+	background: transparent;
+	color: #fff;
+}
+
+.bt-transparent:hover,
+.bt-transparent:focus {
+	color: #fff;
+	opacity: 0.8;
+}
+
+.bt-transparent i,
+.bt-transparent:hover i,
+.bt-transparent:focus i {
+	color: #fff;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(10,10,10,0.5);
+	opacity: 0.75;
+	filter: alpha(opacity=40);
+	z-index: 1;
+}
+
+/*============== firefly ==============*/
+.firefly {
+	width: auto;
+	height:100%;
+	overflow: hidden;
+}
